@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
-    <title>Home|Shopiffee</title>
+    <title>Home | Shopiffee</title>
 </head>
 <body>
     <nav>
@@ -22,58 +22,77 @@
     <img id="banner" src="images/Banner.jpg">
     
     <section>
-        <h1 class="head">Appliances</h1>
+        <br>
+        <h1 class="head" id="app">Appliances</h1>
         <div class="container">
             <div class="block">
                 <img class="home_pics" src="images/washing_machine.png">
-                <p class="txt">
-                    <br>
-                    Good Washing Machine
-                </p>
+                <a class="txt hov" href="pages/wm.html">
+                    Washing Machine
+                </a>
             </div>
             <div class="block">
                 <img class="home_pics" src="images/tv.jpg">
-                <p class="txt">
-                    <br>
-                    Good Television
-                </p>
+                <a class="txt hov" href="pages/tv.html">
+                    Television
+                </a>
             </div>
             <div class="block">
                 <img class="home_pics" src="images/fridge.jpg">
-                <p class="txt">
-                    <br>
-                    Good Fridge
-                </p>
+                <a class="txt hov" href="pages/fridge.html">
+                    Fridge
+                </a>
             </div>
         </div>
-        <h5 class="showmore">Show More>></h5>
     </section>
+    <br>
     <section>
-        <h1 class="head">Furniture</h1>
+        <h1 class="head" id="furn">Furniture</h1>
         <div class="container">
             <div class="block">
                 <img class="home_pics" src="images/sofa.jpg">
-                <p class="txt">
-                    <br>
-                    Good Sofa
-                </p>
+                <a class="txt hov" href="pages/sofa.html">
+                    Sofa
+                </a>
             </div>
             <div class="block">
                 <img class="home_pics" src="images/cupboard.jpg">
-                <p class="txt">
-                    <br>
-                    Good Cupboard
-                </p>
+                <a class="txt hov" href="pages/cupboard.html">
+                    Cupboard
+                </a>
             </div>
             <div class="block">
                 <img class="home_pics" src="images/table.webp">
-                <p class="txt">
-                    <br>
-                    Good Table
-                </p>
+                <a class="txt hov" href="pages/table.html">
+                    Table
+                </a>
             </div>  
         </div>
-        <h5 class="showmore">Show More>></h5>
     </section>
+    <br>
+
+            <div id="respond">
+            
+                <h3 class="pp" id="feed">Give a Feedback</h3>
+            
+                <form action="post_comment.php" method="post" id="commentform">
+            
+                    <label for="comment_author" class="required">Your name:</label>
+                    <input type="text" name="comment_author" id="comment_author" value="" tabindex="1" required="required">
+            
+                    <label for="email" class="required">Your email:</label>
+                    <input type="email" name="email" id="email" value="" tabindex="2" required="required">
+            
+                    <label for="comment" class="required">Your message:</label>
+                    <textarea name="comment" id="comment" rows="10" tabindex="4" required="required"></textarea>
+            
+                    <input type="hidden" name="comment_post_ID" value="1" id="comment_post_ID" />
+                    <input name="submit" type="submit" value="Submit comment" />
+                    
+                </form>
+                <br>
+
+            </div>
+
 </body>
 </html>

@@ -11,10 +11,9 @@ body{
   display: inline-block;
   width: 400px;
   height: 350px;
-  background-color: rgb(252, 252, 252);
   border-radius:20px;
   margin: 10px;
-  padding: 40px;
+  box-shadow: #4f4c5c;
 }
 .container  {
   text-align: center;
@@ -56,16 +55,19 @@ nav ul li a{
 	color:#ffffff;
 	font-size: 15px;
 	font-weight:700;
+    text-decoration: none;
 }
 .home_pics{
     height: 100%;
-    width: 360px;
-    border-radius:15px;
+    width: 100%;
+    border-radius:7px;
 }
 .txt{
     color: aliceblue;
     border: #4f4c5c;
     font-size: 30px;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .head{
     text-align: center;
@@ -73,8 +75,46 @@ nav ul li a{
     color: rgb(30, 11, 51);
     border: #ffffff;
 }
-.showmore{
-    text-align: center;
-    font-size: 20px;
-    color: azure;
+#respond {
+    margin-top: 40px;
+    margin-left: 10%;
+    margin-right: 20%;
+}
+  
+#respond input[type='text'],
+#respond input[type='email'],
+#respond textarea {
+    margin-bottom: 10px;
+    display: block;
+    width: 100%;
+  
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+  
+    line-height: 1.4em;
+}
+.pp{
+    color:rgb(30, 11, 51);
+    font-size: 30px;
+}
+form label{
+    color: aliceblue;
+    font-size: 15px;
+}
+.txt:hover{
+    text-decoration: underline;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+.heads{
+    margin-left: 150px;
+    font-size: 60px;
+    color: rgb(30, 11, 51);
+    border: #ffffff;
 }
