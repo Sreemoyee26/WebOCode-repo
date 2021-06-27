@@ -33,6 +33,7 @@ nav {
 	display: flex;
     position:absolute;
     right:2vw;
+    list-style: none;
 }
 #nav-items{
 	margin-right:2vw;
@@ -52,61 +53,48 @@ nav {
 main{
     margin-top: 10vw;
 }
-section{
-    width: 100%;
-    height:95vh;
-	background-size:cover;
-	background-repeat:no-repeat;
-	position: relative;
-}
 #banner{
     height: auto;
     width: 100%;
 }
+section{
+    width: 100%;
+    height:45vw;
+}
 .block {
-  display: inline-block;
-  width: 400px;
-  height: 350px;
   border-radius:20px;
-  margin: 10px;
-  box-shadow: #4f4c5c;
 }
 .container  {
-  text-align: center;
+    text-align: center;
+    display:flex;
+    justify-content: space-evenly;
 }
-ul{
-    list-style: none;
+.head{
+    text-align: center;
+    font-size: 4vw;
+    color: rgb(30, 11, 51);
+    border: #ffffff;
 }
 .home_pics{
-    height: 100%;
-    width: 100%;
+    height: 25vw;
+    width: 25vw;
     border-radius:7px;
 }
 .txt{
     color: aliceblue;
-    border: #4f4c5c;
-    font-size: 30px;
+    font-size: 2.5vw;
     text-decoration: none;
+    margin-top: 2vw;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.head{
-    text-align: center;
-    font-size: 60px;
-    color: rgb(30, 11, 51);
-    border: #ffffff;
-}
 .txt:hover{
-    text-decoration: underline;
-}
-.heads{
-    margin-left: 150px;
-    font-size: 60px;
-    color: rgb(30, 11, 51);
-    border: #ffffff;
+    background-color: rgba(240, 248, 255, 0.384);
+    color:#4f4c5c;
+    font-size: 3vw;
 }
 
 #response {
-    margin: 10% 10% 10% 10%;
+    margin: 0 10% 10% 10%;
     display:grid;
 } 
 #commentform{
