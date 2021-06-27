@@ -13,87 +13,84 @@
         <h1 id="logo">Shopiffee</h1>
         <ul id="nav-bar">
             <li><a id="nav-items" href="#" class="active">Home</a></li>
-            <li><a id="nav-items" href="#app">Appliances</a></li>
-            <li><a id="nav-items" href="#furn">Furniture</a></li>
-            <li><a id="nav-items" href="#feed">Feedback</a></li>
+            <li><a id="nav-items" href="#appl">Appliances</a></li>
+            <li><a id="nav-items" href="#furni">Furniture</a></li>
+            <li><a id="nav-items" href="#response">Feedback</a></li>
         </ul>
-
-        
     </nav>
     <main>
         <img id="banner" src="images/Banner.jpg">
-        <section>
+        <section id="appl">
+            <br>
             <br>
             <h1 class="head" id="app">Appliances</h1>
             <div class="container">
                 <div class="block">
                     <img class="home_pics" src="images/washing_machine.png">
-                    <br>
-                    <a class="txt" href="pages/wm.html">
+                    <a class="txt hov" href="pages/wm.html">
                         Washing Machines
                     </a>
                 </div>
                 <div class="block">
                     <img class="home_pics" src="images/tv.jpg">
-                    <br>
-                    <a class="txt" href="pages/tv.html">
+                    <a class="txt hov" href="pages/tv.html">
                         Televisions
                     </a>
                 </div>
                 <div class="block">
                     <img class="home_pics" src="images/fridge.jpg">
-                    <br>
-                    <a class="txt" href="pages/fridge.html">
+                    <a class="txt hov" href="pages/fridge.html">
                         Refrigerators
                     </a>
                 </div>
             </div>
         </section>
         <br>
-        <section>
-            <h1 class="head" id="furn">Furnitures</h1>
+        <section id="furni">
+            <br>
+            <br>
+            <h1 class="head" id="furn">Furniture</h1>
             <div class="container">
                 <div class="block">
                     <img class="home_pics" src="images/sofa.jpg">
-                    <br>
-                    <a class="txt" href="pages/sofa.html">
+                    <a class="txt hov" href="pages/sofa.html">
                         Sofas
                     </a>
                 </div>
                 <div class="block">
                     <img class="home_pics" src="images/cupboard.jpg">
-                    <br>
-                    <a class="txt" href="pages/cupboard.html">
+                    <a class="txt hov" href="pages/cupboard.html">
                         Cupboards
                     </a>
                 </div>
                 <div class="block">
                     <img class="home_pics" src="images/table.webp">
-                    <br>
-                    <a class="txt" href="pages/table.html">
+                    <a class="txt hov" href="pages/table.html">
                         Tables
                     </a>
-                </div>  
+                </div>
             </div>
         </section>
-    </main>
-    <footer>
-        <div id="response">    
-            <h3 class="response_head" id="feed">Give a Feedback</h3>
-            <form action="post_comment.php" method="post" id="commentform">
-                <label for="comment_author">Your name:</label>
-                <input type="text" name="comment_author" id="comment_author" tabindex="1" required>
-            
-                <label for="email">Your email:</label>
-                <input type="email" name="email" id="email" value="" tabindex="2" required>
-            
-                <label for="comment">Your message:</label>
-                <textarea name="comment" id="comment" rows="8" tabindex="3" required></textarea>
-            
-                <input id="submit" name="submit" type="submit" value="Submit your response" />    
-            </form>
-            <br>
-        </div>
-    <footer>
+        </main>
+        <footer>
+            <div id="response">
+                <br>
+                <br>
+                <h3 class="response_head" id="feed">Give a Feedback</h3>
+                <form action="post_comment.php" method="post" id="commentform">
+                    <label for="comment_author">Your name:</label>
+                    <input type="text" name="comment_author" id="comment_author" tabindex="1" required>
+        
+                    <label for="email">Your email:</label>
+                    <input type="email" name="email" id="email" value="" tabindex="2" required>
+        
+                    <label for="comment">Your message:</label>
+                    <textarea name="comment" id="comment" rows="8" tabindex="3" required></textarea>
+        
+                    <input id="submit" name="submit" type="submit" value="Submit your response" />
+                </form>
+                <br>
+            </div>
+            <footer>
 </body>
 </html>
