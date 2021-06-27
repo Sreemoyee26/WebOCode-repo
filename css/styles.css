@@ -39,7 +39,7 @@ nav {
 	margin-right:2vw;
 	font-family:myriad pro regular;
 	color:#ffffff;
-	font-size: 2vw;
+	font-size: 1.2vw;
 	font-weight:700;
     text-decoration: none;
     border-radius: 10%;
@@ -82,7 +82,7 @@ section{
 }
 .txt{
     color: aliceblue;
-    font-size: 2.5vw;
+    font-size: 2vw;
     text-decoration: none;
     margin-top: 2vw;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -118,7 +118,7 @@ section{
 }
 form label{
     color: aliceblue;
-    font-size: 2.3vw;
+    font-size: 1.8vw;
 }
 #submit{
     justify-self: center;
@@ -143,4 +143,7 @@ form label{
 }
 .tha{
     text-align: center;
+}
+.btn{
+    font-size: 2vw;
 }
