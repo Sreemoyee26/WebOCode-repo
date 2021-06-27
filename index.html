@@ -22,7 +22,6 @@
     </nav>
     <main>
         <img id="banner" src="images/Banner.jpg">
-        
         <section>
             <br>
             <h1 class="head" id="app">Appliances</h1>
@@ -30,64 +29,62 @@
                 <div class="block">
                     <img class="home_pics" src="images/washing_machine.png">
                     <a class="txt hov" href="pages/wm.html">
-                        Washing Machine
+                        Washing Machines
                     </a>
                 </div>
                 <div class="block">
                     <img class="home_pics" src="images/tv.jpg">
                     <a class="txt hov" href="pages/tv.html">
-                        Television
+                        Televisions
                     </a>
                 </div>
                 <div class="block">
                     <img class="home_pics" src="images/fridge.jpg">
                     <a class="txt hov" href="pages/fridge.html">
-                        Refrigerator
+                        Refrigerators
                     </a>
                 </div>
             </div>
         </section>
         <br>
         <section>
-            <h1 class="head" id="furn">Furniture</h1>
+            <h1 class="head" id="furn">Furnitures</h1>
             <div class="container">
                 <div class="block">
                     <img class="home_pics" src="images/sofa.jpg">
                     <a class="txt hov" href="pages/sofa.html">
-                        Sofa
+                        Sofas
                     </a>
                 </div>
                 <div class="block">
                     <img class="home_pics" src="images/cupboard.jpg">
                     <a class="txt hov" href="pages/cupboard.html">
-                        Cupboard
+                        Cupboards
                     </a>
                 </div>
                 <div class="block">
                     <img class="home_pics" src="images/table.webp">
                     <a class="txt hov" href="pages/table.html">
-                        Table
+                        Tables
                     </a>
                 </div>  
             </div>
         </section>
-        <br>
     </main>
     <footer>
-        <div id="respond">    
-            <h3 class="pp" id="feed">Give a Feedback</h3>
+        <div id="response">    
+            <h3 class="response_head" id="feed">Give a Feedback</h3>
             <form action="post_comment.php" method="post" id="commentform">
-                <label for="comment_author" class="required">Your name:</label>
-                <input type="text" name="comment_author" id="comment_author" value="" tabindex="1" required="required">
+                <label for="comment_author">Your name:</label>
+                <input type="text" name="comment_author" id="comment_author" tabindex="1" required>
             
-                <label for="email" class="required">Your email:</label>
-                <input type="email" name="email" id="email" value="" tabindex="2" required="required">
+                <label for="email">Your email:</label>
+                <input type="email" name="email" id="email" value="" tabindex="2" required>
             
-                <label for="comment" class="required">Your message:</label>
-                <textarea name="comment" id="comment" rows="10" tabindex="4" required="required"></textarea>
+                <label for="comment">Your message:</label>
+                <textarea name="comment" id="comment" rows="8" tabindex="3" required></textarea>
             
-                <input type="hidden" name="comment_post_ID" value="1" id="comment_post_ID" />
-                <input name="submit" type="submit" value="Submit comment" />    
+                <input id="submit" name="submit" type="submit" value="Submit your response" />    
             </form>
             <br>
         </div>

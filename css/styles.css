@@ -4,6 +4,7 @@ body{
     padding: 0px;
     box-sizing: border-box;
 }
+
 nav {
 	display: flex;
 	align-items:center;
@@ -47,6 +48,7 @@ nav {
     background-color: aliceblue;
     color: #413961;
 }
+
 main{
     margin-top: 10vw;
 }
@@ -93,41 +95,7 @@ ul{
     color: rgb(30, 11, 51);
     border: #ffffff;
 }
-#respond {
-    margin-top: 40px;
-    margin-left: 10%;
-    margin-right: 20%;
-}
-  
-#respond input[type='text'],
-#respond input[type='email'],
-#respond textarea {
-    margin-bottom: 10px;
-    display: block;
-    width: 100%;
-  
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -o-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -khtml-border-radius: 5px;
-    border-radius: 5px;
-  
-    line-height: 1.4em;
-}
-.pp{
-    color:rgb(30, 11, 51);
-    font-size: 30px;
-}
-form label{
-    color: aliceblue;
-    font-size: 15px;
-}
 .txt:hover{
-    text-decoration: underline;
-}
-nav ul li a:hover{
     text-decoration: underline;
 }
 .heads{
@@ -135,4 +103,42 @@ nav ul li a:hover{
     font-size: 60px;
     color: rgb(30, 11, 51);
     border: #ffffff;
+}
+
+#response {
+    margin: 10% 10% 10% 10%;
+    display:grid;
+} 
+#commentform{
+    display:grid;
+    row-gap:2vw;
+}
+#response input[type='text'],
+#response input[type='email'],
+#response textarea {
+    display: block;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    line-height: 2vw;
+}
+.response_head{   
+    color:rgb(30, 11, 51);
+    font-size: 4vw;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-self: center;
+}
+form label{
+    color: aliceblue;
+    font-size: 2.3vw;
+}
+#submit{
+    justify-self: center;
+    font-size: 2vw;
+    border-radius: 5px;
+    width:25vw;
+}
+#submit:hover{
+    width:30vw;
+    height:5vw;
 }
